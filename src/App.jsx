@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
@@ -10,11 +11,13 @@ const App = () => {
 	return (
 		<>
 			<Navbar />
-			<Home />
-			<About />
-			<Portfolio />
-			<Experience />
-			<Contact />
+			<main className="app-container">
+				<Home />
+				<About />
+				<Portfolio />
+				<Experience />
+				<Contact />
+			</main>
 		</>
 	);
 };

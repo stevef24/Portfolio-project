@@ -24,7 +24,7 @@ body,
 	background-color: #131313;
 	font-family: "Poppins", sans-serif;
 	color: #fff;
-	width: 1440px;
+	max-width: 1440px;
 	margin: 0 auto;
 }
 
@@ -66,31 +66,130 @@ h6 {
 }
 
 :root {
-	--gradient: linear-gradient(
-		90.13deg,
-		var(--accent-1) 0.11%,
-		var(--accent-2) 25.06%,
-		var(--accent-3) 50%,
-		var(--accent-4) 74.8%,
-		var(--accent-5) 99.76%
-	);
 	--primary-1: #d1aad7;
 	--hover-2: #c88bc4;
 	--secondary-3: #7b8fdd;
 	--accent-4: #86bff2;
 	--accent-5: #bbdef2;
+	--gradient: linear-gradient(
+		90.13deg,
+		var(--primary-1) 0.11%,
+		var(--hover-2) 25.06%,
+		var(--secondary-3) 50%,
+		var(--accent-4) 74.8%,
+		var(--accent-5) 99.76%
+	);
 }
 
 .active {
-	background: linear-gradient(
-		90.13deg,
-		#d1aad7 0.11%,
-		#c88bc4 25.06%,
-		#7b8fdd 50%,
-		#86bff2 74.8%,
-		#bbdef2 99.76%
-	);
+	background: var(--hover-2);
 	font-weight: bolder;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 120px;
+	padding: 0 2rem;
+	color: white;
+	background-color: rgba(19, 19, 19, 0.15);
+	backdrop-filter: blur(5px);
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+nav a {
+	margin: 0 0.3rem;
+	color: var(--textColor);
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: rgba(19, 19, 19, 0.15);
+		backdrop-filter: blur(5px);
+		transition: 1s;
+		z-index: 10;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+		height: 100vh;
+		background-color: rgba(19, 19, 19, 0.95);
+		backdrop-filter: blur(5px);
+	}
+	header {
+		padding: 0 2rem;
+		justify-content: space-between;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+
+.pageContainer {
+	height: 100%;
+	min-height: 100vh;
+	min-width: 100%;
+	margin: 0 auto;
+}
+.pageContainer:first-of-type {
+	padding-top: 120px;
+}
+
+.app-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }

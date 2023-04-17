@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Link } from "react-scroll";
-import styles from "./navbar.module.css";
 import { FaTimes, FaBars } from "react-icons/fa";
+import "../index.css";
 
 const Navbar = () => {
 	const navRef = useRef();
@@ -11,72 +11,72 @@ const Navbar = () => {
 	};
 
 	return (
-		<header className={styles.navContainer}>
+		<header>
 			<figure>
-				<img src="" alt="Stav F logo" />
+				<img src="/Logo.svg" alt="Stav F logo" className="logo" />
 			</figure>
 			<nav ref={navRef}>
-				<a className={styles.link} href="#home">
+				<a href="#home">
 					<Link
 						activeClass="active"
 						to="home"
 						spy={true}
 						smooth={true}
-						offset={0}
+						offset={-120}
 						duration={500}
 					>
 						Home
 					</Link>
 				</a>
-				<a className={styles.link} href="#about">
+				<a href="#about">
 					<Link
 						activeClass="active"
 						to="about"
 						spy={true}
 						smooth={true}
-						offset={0}
+						offset={-120}
 						duration={500}
 					>
 						About
 					</Link>
 				</a>
-				<a className={styles.link} href="#potfolio">
+				<a href="#portfolio">
 					<Link
 						activeClass="active"
 						to="portfolio"
 						spy={true}
 						smooth={true}
-						offset={0}
+						offset={-120}
 						duration={500}
 					>
 						Portfolio
 					</Link>
 				</a>
-				<a className={styles.link} href="#Experience">
+				<a href="#Experience">
 					<Link
 						activeClass="active"
 						to="experience"
 						spy={true}
 						smooth={true}
-						offset={0}
+						offset={-120}
 						duration={500}
 					>
 						Experience
 					</Link>
 				</a>
-				<a className={styles.link} href="contact">
+				<a href="#contact">
 					<Link
 						activeClass="active"
 						to="contact"
 						spy={true}
 						smooth={true}
-						offset={0}
+						offset={-120}
 						duration={500}
 					>
 						Contact
 					</Link>
 				</a>
-				<button classname="nav-btn nav-close-btn" onClick={showNavbar}>
+				<button className="nav-btn nav-close-btn" onClick={showNavbar}>
 					<FaTimes />
 				</button>
 			</nav>

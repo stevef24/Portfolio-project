@@ -1,0 +1,20 @@
+.portfolio {
+	padding: 0 2rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: start;
+	gap: 2rem;
+	flex-wrap: wrap;
+	border: 1px red solid;
+	min-height: 100vh;
+}
+.portfolio-title {
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.card {
+	border: 1px red solid;
+	height: 450px;
+	min-width: 350px;
+}
