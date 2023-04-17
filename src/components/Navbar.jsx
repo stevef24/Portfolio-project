@@ -22,22 +22,9 @@ const Navbar = () => {
 						to="home"
 						spy={true}
 						smooth={true}
-						offset={-120}
 						duration={500}
 					>
 						Home
-					</Link>
-				</a>
-				<a href="#about">
-					<Link
-						activeClass="active"
-						to="about"
-						spy={true}
-						smooth={true}
-						offset={-120}
-						duration={500}
-					>
-						About
 					</Link>
 				</a>
 				<a href="#portfolio">
@@ -46,10 +33,20 @@ const Navbar = () => {
 						to="portfolio"
 						spy={true}
 						smooth={true}
-						offset={-120}
 						duration={500}
 					>
 						Portfolio
+					</Link>
+				</a>
+				<a href="#about">
+					<Link
+						activeClass="active"
+						to="about"
+						spy={true}
+						smooth={true}
+						duration={500}
+					>
+						About
 					</Link>
 				</a>
 				<a href="#Experience">
@@ -58,22 +55,9 @@ const Navbar = () => {
 						to="experience"
 						spy={true}
 						smooth={true}
-						offset={-120}
 						duration={500}
 					>
 						Experience
-					</Link>
-				</a>
-				<a href="#contact">
-					<Link
-						activeClass="active"
-						to="contact"
-						spy={true}
-						smooth={true}
-						offset={-120}
-						duration={500}
-					>
-						Contact
 					</Link>
 				</a>
 				<button className="nav-btn nav-close-btn" onClick={showNavbar}>

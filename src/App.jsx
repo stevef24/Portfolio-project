@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
-import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
 
@@ -13,10 +12,9 @@ const App = () => {
 			<Navbar />
 			<main className="app-container">
 				<Home />
-				<About />
 				<Portfolio />
+				<About />
 				<Experience />
-				<Contact />
 			</main>
 		</>
 	);

@@ -77,6 +77,7 @@ h2 {
 	background-origin: border-box;
 	background-clip: content-box, border-box;
 	box-shadow: 2px 1000px 1px #131313 inset;
+	text-decoration: none;
 }
 
 .download::before {
@@ -90,7 +91,7 @@ h2 {
 	filter: blur(100px);
 	opacity: 0;
 	background: var(--gradient);
-	transition: 0.3s opacity ease-in-out;
+	transition: 0.5s opacity ease-in-out;
 }
 
 .download:hover::before {
@@ -119,11 +120,11 @@ h2 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: border 0.5s ease-out 100ms, color 1s ease-out 100ms;
 }
 
 .icons:hover {
 	cursor: pointer;
-	transform: scale(1.2);
 	color: var(--primary-1);
 	border: 1px var(--hover-2) solid;
 }

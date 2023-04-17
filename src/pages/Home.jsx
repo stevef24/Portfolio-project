@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
-import { FaDownload, FaGithub, FaDribbble, FaLinkedin } from "react-icons/fa";
+import { FaArrowDown, FaGithub, FaDribbble, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Home = () => {
 	return (
@@ -9,7 +10,7 @@ const Home = () => {
 				<figure className="image">
 					<img src="./Image-hello.png" alt="momoji of stav" />
 				</figure>
-				<h2>Hi im</h2>
+				<h2>Hi I'm</h2>
 				<h1>Stav Fernandes</h1>
 				<h3>Full Stack developer</h3>
 				<div className="icons-container">
@@ -24,12 +25,21 @@ const Home = () => {
 					</a>
 				</div>
 
-				<button className="download">
+				<a className="download" href="#portfolio">
 					<span>
-						<FaDownload />
+						<FaArrowDown />
 					</span>
-					<span>DOWNLOAD CV</span>
-				</button>
+					<Link
+						activeClass="active"
+						to="portfolio"
+						spy={true}
+						smooth={true}
+						offset={-120}
+						duration={500}
+					>
+						JUMP TO PORTFOLIO
+					</Link>
+				</a>
 			</main>
 		</div>
 	);
