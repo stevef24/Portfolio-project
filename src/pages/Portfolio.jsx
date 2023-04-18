@@ -31,14 +31,14 @@ const Portfolio = () => {
 									City Canvas is a social app that helps you discover and share
 									street art in your city. Our visually stunning and
 									user-friendly app utilizes React Native, Firebase, Tailwind
-									CSS, and Expo technologies.
+									CSS, and Expo technologies.(Final group project)
 								</p>
 								<section className="icon-links">
 									<a>
-										<FaGithub />
-									</a>
-									<a>
-										<FaExternalLinkAlt />
+										<FaGithub
+											href="https://github.com/Nayem59/CityCanvas"
+											target="_blank"
+										/>
 									</a>
 								</section>
 							</section>
@@ -68,11 +68,11 @@ const Portfolio = () => {
 									game reviews, comments, categories, and users.
 								</p>
 								<section className="icon-links">
-									<a>
+									<a
+										href="https://github.com/stevef24/backend-project"
+										target="_blank"
+									>
 										<FaGithub />
-									</a>
-									<a>
-										<FaExternalLinkAlt />
 									</a>
 								</section>
 							</section>
@@ -99,13 +99,20 @@ const Portfolio = () => {
 									NC-Games Frontend is a website that was built to demonstrate
 									the functionalities of the NC-Games API.The website was
 									created using React, React Router, Tailwind CSS, Axios, and
-									other technologies.
+									other technologies. (the website may take a min to load as I
+									am using a free hosting service 😄)
 								</p>
 								<section className="icon-links">
-									<a>
+									<a
+										href="https://github.com/stevef24/fe-nc-games"
+										target="_blank"
+									>
 										<FaGithub />
 									</a>
-									<a>
+									<a
+										href="https://nc-games-fe-project-stav.netlify.app/"
+										target="_blank"
+									>
 										<FaExternalLinkAlt />
 									</a>
 								</section>

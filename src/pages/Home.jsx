@@ -14,13 +14,21 @@ const Home = () => {
 				<h1>Stav Fernandes</h1>
 				<h3>Full Stack developer</h3>
 				<div className="icons-container">
-					<a className="icons">
+					<a
+						className="icons"
+						href="https://github.com/stevef24"
+						target="_blank"
+					>
 						<FaGithub />
 					</a>
 					<a className="icons">
 						<FaDribbble />
 					</a>
-					<a className="icons">
+					<a
+						className="icons"
+						href="https://www.linkedin.com/in/stavfernandes24/"
+						target="_blank"
+					>
 						<FaLinkedin />
 					</a>
 				</div>

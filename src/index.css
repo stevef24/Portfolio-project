@@ -81,6 +81,9 @@ h6 {
 		var(--accent-5) 99.76%
 	);
 }
+a {
+	color: white;
+}
 
 .active {
 	background: var(--hover-2);
@@ -204,7 +207,7 @@ nav {
 
 .vertical-timeline-element-content {
 	background: #232323;
-	width: 400px;
+	width: 375px;
 }
 
 .vertical-timeline-element-content p {

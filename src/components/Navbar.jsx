@@ -13,7 +13,9 @@ const Navbar = () => {
 	return (
 		<header>
 			<figure>
-				<img src="/Logo.svg" alt="Stav F logo" className="logo" />
+				<a href="#home">
+					<img src="/Logo.svg" alt="Stav F logo" className="logo" />
+				</a>
 			</figure>
 			<nav ref={navRef}>
 				<a href="#home">

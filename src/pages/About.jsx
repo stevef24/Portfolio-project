@@ -18,11 +18,14 @@ const About = () => {
 						design. Honestly, if you had asked me a year or two ago if I would
 						ever end up pursuing a career and design being a part of it, I would
 						have said you are crazy, but life has a funny way of opening up
-						doors where you least expect it. At this stage of my career, I am
-						looking to join a company that is not afraid to break the norm, a
-						company with passionate people and a place where growth and
-						development is a daily practice. If you think your company is like
-						that or know a company that is, then please reach out.
+						doors where you least expect it.
+						<br />
+						<br />
+						At this stage of my career, I am looking to join a company that is
+						not afraid to break the norm, a company with passionate people and a
+						place where growth and development is a daily practice. If you think
+						your company is like that or know a company that is, then please
+						reach out.
 					</p>
 					<h6>But Stav, seriously... tell us about yourself....</h6>
 					<p>
@@ -30,13 +33,13 @@ const About = () => {
 						new things and am never satisfied with the status quo. I like to
 						push myself and others around me to higher standards and firmly
 						believe in the power of hard work. During my time traveling, I was
-						extremely lucky to find something I am passionate about (software
-						development + design). Once I made my decision to make a career
-						switch, I didn’t look back. To put it all simply, I love life, so I
-						choose to direct my time and energy into things that I am passionate
-						about. I love joking around, meeting new people, and don’t take life
-						too seriously, but when it comes down to getting the work done, you
-						can count on me. dont believe me ? see the review below:
+						extremely lucky to find something I am passionate about and once I
+						made my decision to make a career switch, I didn’t look back. To put
+						it all simply, I love life, so I choose to direct my time and energy
+						into things that I am passionate about. I love joking around,
+						meeting new people, and don’t take life too seriously, but when it
+						comes down to getting the work done, you can count on me. dont
+						believe me ? see the review below:
 					</p>
 					<q>
 						‘Stav is the best thing that happened to us. He is extremely
