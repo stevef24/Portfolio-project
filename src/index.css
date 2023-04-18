@@ -149,7 +149,8 @@ nav {
 		opacity: 1;
 	}
 	header {
-		background-color: rgba(19, 19, 19, 0.5);
+		background-color: rgba(19, 19, 19, 0.95);
+		backdrop-filter: blur(1px);
 	}
 	header nav {
 		position: fixed;
@@ -212,7 +213,8 @@ nav {
 
 .vertical-timeline-element-content {
 	background: #232323;
-	width: 375px;
+	width: 350px;
+	max-width: 500px;
 }
 
 .vertical-timeline-element-content p {
