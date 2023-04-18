@@ -148,7 +148,9 @@ nav {
 		visibility: visible;
 		opacity: 1;
 	}
-
+	header {
+		background-color: rgba(19, 19, 19, 0.5);
+	}
 	header nav {
 		position: fixed;
 		top: -100vh;
