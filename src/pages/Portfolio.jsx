@@ -94,7 +94,7 @@ const Portfolio = () => {
 							</figure>
 
 							<section className="info">
-								<h3 className="card-title">City Canvas</h3>
+								<h3 className="card-title">NC-games Frontend</h3>
 								<p>
 									NC-Games Frontend is a website that was built to demonstrate
 									the functionalities of the NC-Games API.The website was
