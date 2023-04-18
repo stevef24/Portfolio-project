@@ -23,6 +23,7 @@ const Navbar = () => {
 						spy={true}
 						smooth={true}
 						duration={500}
+						onClick={showNavbar}
 					>
 						Home
 					</Link>
@@ -34,6 +35,7 @@ const Navbar = () => {
 						spy={true}
 						smooth={true}
 						duration={500}
+						onClick={showNavbar}
 					>
 						Portfolio
 					</Link>
@@ -45,6 +47,7 @@ const Navbar = () => {
 						spy={true}
 						smooth={true}
 						duration={500}
+						onClick={showNavbar}
 					>
 						About
 					</Link>
@@ -56,6 +59,7 @@ const Navbar = () => {
 						spy={true}
 						smooth={true}
 						duration={500}
+						onClick={showNavbar}
 					>
 						Experience
 					</Link>

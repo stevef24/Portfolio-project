@@ -17,8 +17,8 @@ const Portfolio = () => {
 						glareColor="#676767"
 						glarePosition="bottom"
 						glareBorderRadius="10px"
-						tiltMaxAngleX={2}
-						tiltMaxAngleY={2}
+						tiltMaxAngleX={4}
+						tiltMaxAngleY={4}
 					>
 						<article className="card">
 							<figure>
