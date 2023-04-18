@@ -160,7 +160,7 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: rgba(19, 19, 19, 0.15);
+		background-color: rgba(19, 19, 19, 0.5);
 		backdrop-filter: blur(5px);
 		transition: 1s;
 		z-index: 10;
@@ -186,6 +186,9 @@ nav {
 	nav a {
 		font-size: 1.5rem;
 	}
+	h1 {
+		font-size: 3.5rem;
+	}
 }
 
 .pageContainer {
@@ -207,7 +210,7 @@ nav {
 
 .vertical-timeline-element-content {
 	background: #232323;
-	width: 375px;
+	width: 400px;
 }
 
 .vertical-timeline-element-content p {
