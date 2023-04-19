@@ -21,7 +21,11 @@ const Home = () => {
 					>
 						<FaGithub />
 					</a>
-					<a className="icons">
+					<a
+						className="icons"
+						href="https://dribbble.com/stavf24"
+						target="_blank"
+					>
 						<FaDribbble />
 					</a>
 					<a

@@ -192,6 +192,11 @@ nav {
 	h1 {
 		font-size: 3.5rem;
 	}
+	.vertical-timeline-element-content {
+		background: #232323;
+		width: 300px;
+		max-width: 500px;
+	}
 }
 
 .pageContainer {
@@ -243,4 +248,19 @@ nav {
 
 .vertical-timeline-element-subtitle {
 	color: #737373;
+}
+.logo {
+	width: 10rem;
+}
+
+.mindblown {
+	max-width: 80px;
+	height: 80px;
+	display: inline-block;
+}
+
+.mind-blown-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

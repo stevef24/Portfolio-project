@@ -14,7 +14,7 @@ const Navbar = () => {
 		<header>
 			<figure>
 				<a href="#home">
-					<img src="/Logo.svg" alt="Stav F logo" className="logo" />
+					<img src="/Logo.png" alt="Stav F logo" className="logo" />
 				</a>
 			</figure>
 			<nav ref={navRef}>

@@ -13,12 +13,20 @@ const About = () => {
 					<p>
 						I am an investment analyst turned full-stack developer. After taking
 						a career break and traveling Southeast Asia, I came back with a
-						renewed sense of purpose (deep right ? ). Now, I am a junior
-						software developer with a passion for problem-solving, coding, and
-						design. Honestly, if you had asked me a year or two ago if I would
-						ever end up pursuing a career and design being a part of it, I would
-						have said you are crazy, but life has a funny way of opening up
-						doors where you least expect it.
+						renewed sense of purpose (deep right ...)
+						<br />
+						<div className="mind-blown-container">
+							<img
+								src="./Image-mindblow.png"
+								className="mindblown"
+								alt="mindblown emoji"
+							/>
+						</div>
+						Now, I am a junior software developer with a passion for
+						problem-solving, coding, and design. Honestly, if you had asked me a
+						year or two ago if I would ever end up pursuing a career and design
+						being a part of it, I would have said you are crazy, but life has a
+						funny way of opening up doors where you least expect it.
 						<br />
 						<br />
 						At this stage of my career, I am looking to join a company that is
