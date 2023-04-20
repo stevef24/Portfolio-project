@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
+import Contact from "./pages/Contact";
 
 const App = () => {
 	return (
@@ -15,6 +16,7 @@ const App = () => {
 				<Portfolio />
 				<About />
 				<Experience />
+				<Contact />
 			</main>
 		</>
 	);

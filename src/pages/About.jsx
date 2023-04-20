@@ -46,8 +46,8 @@ const About = () => {
 						it all simply, I love life, so I choose to direct my time and energy
 						into things that I am passionate about. I love joking around,
 						meeting new people, and don’t take life too seriously, but when it
-						comes down to getting the work done, you can count on me. dont
-						believe me ? see the review below:
+						comes down to getting the work done, you can count on me. Don't
+						believe me? See the review below:
 					</p>
 					<q>
 						‘Stav is the best thing that happened to us. He is extremely

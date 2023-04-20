@@ -66,6 +66,18 @@ const Navbar = () => {
 						Experience
 					</Link>
 				</a>
+				<a href="#Contact">
+					<Link
+						activeClass="active"
+						to="contact"
+						spy={true}
+						smooth={true}
+						duration={500}
+						onClick={showNavbar}
+					>
+						Contact
+					</Link>
+				</a>
 				<button className="nav-btn nav-close-btn" onClick={showNavbar}>
 					<FaTimes />
 				</button>

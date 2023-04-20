@@ -272,12 +272,13 @@ const Experience = () => {
 						</h4>
 
 						<p>
-							Trained in Mixed Martial Arts & Muay Thai in Thailand/Indonesia,
-							immersed in diverse cultures & met new people, expanding interests
-							& developing interpersonal skills. Gained self-confidence,
-							resilience, focus, and stayed physically fit. This experience
-							enhanced personal/professional growth & provided valuable skills
-							applicable to various aspects of life
+							Trained in Mixed Martial Arts & Muay Thai in Thailand and
+							Indonesia, immersed in diverse cultures whilst meeting new people,
+							expanding interests & developing interpersonal skills. Gained
+							self-confidence, resilience, focus no need for the comma here, and
+							stayed physically fit. This experience enhanced personal and
+							professional growth, also providing valuable skills applicable to
+							various aspects of life
 						</p>
 					</VerticalTimelineElement>
 					<VerticalTimelineElement
@@ -354,6 +355,5 @@ const Experience = () => {
 		</div>
 	);
 };
-// background: linear-gradient(90.13deg,#d1aad7 .11%,#c88bc4 25.06%,#7b8fdd 50%,#86bff2 74.8%,#bbdef2 99.76%)
 
 export default Experience;
