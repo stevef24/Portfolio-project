@@ -218,7 +218,7 @@ nav {
 
 .vertical-timeline-element-content {
 	background: #232323;
-	width: 350px;
+	min-width: 350px;
 	max-width: 500px;
 }
 
@@ -263,4 +263,8 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.Link:hover {
+	cursor: pointer;
 }

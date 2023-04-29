@@ -38,7 +38,7 @@
 }
 
 .card-title {
-	line-height: 1;
+	line-height: 1.5;
 	font-weight: bolder;
 	background-image: linear-gradient(
 		90.13deg,
@@ -50,7 +50,7 @@
 	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	text-align: center;
+	text-align: left;
 }
 
 .info {
@@ -60,7 +60,7 @@
 .info p {
 	height: 150px;
 	margin-top: 0.5rem;
-	text-align: justify;
+	text-align: left;
 }
 .icon-links {
 	display: flex;

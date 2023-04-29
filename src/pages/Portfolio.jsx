@@ -22,6 +22,46 @@ const Portfolio = () => {
 					>
 						<article className="card">
 							<figure>
+								<img src="./GamesHub.png" alt="GamesHub" />
+							</figure>
+
+							<section className="info">
+								<h3 className="card-title">GamesHub</h3>
+								<p>
+									GamesHub is a TypeScript-powered app that uses React, Chakra
+									UI, and Vite to help you discover the latest games. With this
+									app, you can sort games by console or genre using the RAWG
+									API.
+								</p>
+								<section className="icon-links">
+									<a
+										href="https://github.com/stevef24/games-hub"
+										target="_blank"
+									>
+										<FaGithub />
+									</a>
+									<a
+										href="https://game-hub-iota-five.vercel.app/"
+										target="_blank"
+									>
+										<FaExternalLinkAlt />
+									</a>
+								</section>
+							</section>
+						</article>
+					</Tilt>
+					<Tilt
+						className="tilt"
+						glareEnable={true}
+						glareMaxOpacity={0.2}
+						glareColor="#676767"
+						glarePosition="bottom"
+						glareBorderRadius="10px"
+						tiltMaxAngleX={4}
+						tiltMaxAngleY={4}
+					>
+						<article className="card">
+							<figure>
 								<img src="./Group-project.png" alt="" />
 							</figure>
 
@@ -34,11 +74,11 @@ const Portfolio = () => {
 									CSS, and Expo technologies.(Final group project)
 								</p>
 								<section className="icon-links">
-									<a>
-										<FaGithub
-											href="https://github.com/Nayem59/CityCanvas"
-											target="_blank"
-										/>
+									<a
+										href="https://github.com/Nayem59/CityCanvas"
+										target="_blank"
+									>
+										<FaGithub />
 									</a>
 								</section>
 							</section>
@@ -94,7 +134,7 @@ const Portfolio = () => {
 							</figure>
 
 							<section className="info">
-								<h3 className="card-title">NC-games Frontend</h3>
+								<h3 className="card-title">NC-Games Frontend</h3>
 								<p>
 									NC-Games Frontend is a website that was built to demonstrate
 									the functionalities of the NC-Games API.The website was

@@ -15,13 +15,13 @@ const About = () => {
 						a career break and traveling Southeast Asia, I came back with a
 						renewed sense of purpose (deep right ...)
 						<br />
-						<div className="mind-blown-container">
+						<span className="mind-blown-container">
 							<img
 								src="./Image-mindblow.png"
 								className="mindblown"
 								alt="mindblown emoji"
 							/>
-						</div>
+						</span>
 						Now, I am a junior software developer with a passion for
 						problem-solving, coding, and design. Honestly, if you had asked me a
 						year or two ago if I would ever end up pursuing a career and design
